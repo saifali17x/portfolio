@@ -390,7 +390,7 @@ function initializeAnimations() {
     }, observerOptions);
 
     const animatedElements = document.querySelectorAll(
-      ".social-card, .creative-card, .value-item, .feature, .hero-text, .hero-image, .about-images, .about-text, .capsule-image, .capsule-text, .newsletter-content"
+      ".project-card, .value-item, .hero-text, .hero-image, .about-images, .about-text"
     );
 
     animatedElements.forEach((el) => {
